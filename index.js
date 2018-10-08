@@ -43,19 +43,19 @@ app.get('/', (req, res) => {
 });
 
 // Posting update
-app.post('/update', (req, res) => {
+app.method('where', (paramOne, paramTwo) => {
   const { body: { name, update, password } } = req;
   if (!name || !update) {
     res.redirect('/error');
-  } else if (password === defaultPassword) {
+  } else if () {
     const userUpdate = new Update({ name, update });
     userUpdate.save().then(() => {
-      res.redirect('/');
+      // do a redirect here
     }).catch(() => {
-      res.redirect('/error');
+      // do a redirect here
     });
   } else {
-    res.redirect('/?wrongPassword=true');
+    // do a redirect here
   }
 });
 
