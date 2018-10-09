@@ -5,9 +5,6 @@ Enter these commands in your terminal in VSCode
 `git config --global user.name "YourName`
 `git config --global user.email "YourEmail"`
 
-
-
-
 ## MongoDB Installation
 
 ### Get The Install Package
@@ -85,7 +82,7 @@ _ _ _
 * host:
 * port:
 
-3. Also, retrieve what your named your database. You can find this by going to Resource Groups -> (The resource group you created today) -> Then noting the name of the Azure CosmosDB Account below:
+3. Also, retrieve what you named your database. You can find this by going to Resource Groups -> (The resource group you created today) -> Then noting the name of the Azure CosmosDB Account below:
 
 * database:
 
