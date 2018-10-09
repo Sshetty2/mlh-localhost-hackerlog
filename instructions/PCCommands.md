@@ -9,14 +9,9 @@ Enter these commands in your terminal in VSCode
 
 ### Get The Install Package
 
-1. Visit mlhlocal.host/install-mongodb
-2. Select Install on Windows
-3. Select Install MongoDB Community Edition
-4. Open MongoDB Download Center in a new tab
-5. Make sure "Community Server" is the tab at the top, then click DOWNLOAD (msi)
-6. Navigate to your downloads folder; double click mongodb-win32-x86_64-2000plus-ssl-4.0.2-signed
-7. Follow all the instructions to install MongoDB. Choose all defaults.
-
+1. Visit https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.2-signed.msi/download
+3. Navigate to your downloads folder; double click mongodb-win32-x86_64-2000plus-ssl-4.0.2-signed
+4. Follow all the instructions to install MongoDB. Choose all defaults.
 
 ### Open a command prompt as an administrator:
 
