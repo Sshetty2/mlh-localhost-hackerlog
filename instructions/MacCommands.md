@@ -1,36 +1,8 @@
-## Commands to Install MongoDB
-
-// install homebrew
-
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-// install mongoDB
-
-brew install mongodb
-
-// create database files
-
-sudo mkdir -p /data/db
-
-## Commands to Start MongoDB
-
-// run mongodb
-
-sudo mongod
-
-// Expected Output:
-
-// in another terminal:
-
-mongo --host 127.0.0.1:27017
-
-// Notes
-
 ## Deploy Your App
 
 ### Keys
 
-1. Go to
+1. portal.azure.com -> All Resources -> Azure CosmosDB -> Connection String
 2. Copy and Paste Keys Here So You Don't Lose them:
 
 * username:
@@ -42,7 +14,7 @@ mongo --host 127.0.0.1:27017
 
 * database:
 
-It will be much easier to use the command below if you replace all the values in here and THEN copy and paste it into your Azure portal.
+It will be much easier to use the command below if you replace all the values in here and THEN copy and paste it into your Azure portal. Make sure to delete the <> brackets. 
 
 `mongodb://<username>:<primary password>@<host>:<port>/<database>?ssl=true&replicaSet=globaldb`
 
