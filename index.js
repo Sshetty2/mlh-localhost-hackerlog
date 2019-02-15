@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // Get env variables
 const port = process.env.PORT || 3000;
 const perPage = process.env.PAGE_SIZE || 10;
-const mongoUrl = process.env.MONGODB_URI || 'mongodb://mlh-localhost:uSI0Ir6tQg5qtj4Ao485wmlrCFDHmkMTqcrkhLuD9mRHkfj6NIkdB9Q0iZf5xXDzkmeWamyfmf89DW2a1fGC4g==@mlh-localhost.documents.azure.com:10255/mlh-localhost?ssl=true&replicaSet=globaldb';
+const mongoUrl = process.env.MONGODB_URI || 'mongodb://hackerlog:GQEBrddkbf59ULuVGTZD43tevpSJ01pQnd7VTv8aSkheP9dbeoorOkEw8ejFdL25iDqVWuZ7DB4kvst3BieZcQ==@hackerlog.documents.azure.com:10255/hackerlog?ssl=true';
 const defaultPassword = process.env.HACKERLOG_PASSWORD || 'P@ssw0rd!';
 
 // Create post schema
